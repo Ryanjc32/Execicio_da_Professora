@@ -11,7 +11,7 @@
 let n1 = 0
 
 for(let i= 1; i <= 5; i++){
-    var n = parseFloat(prompt("Digite um número: "))
+    let n = parseFloat(prompt("Digite um número: "))
     n1 += n
 }
 

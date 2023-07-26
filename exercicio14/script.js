@@ -6,28 +6,27 @@ let operação = prompt()
 
 
 
-// for (let i = 1; i <= 10 ;i++){
-//     if(operação === "+"){
-//     console.log(`${n} + ${i} = `, i + n)
+ for (let i = 1; i <= 10 ;i++){
+     if(operação === "+"){
+     console.log(`${n} + ${i} = `, i + n)
 
-// }else if(operação === "-"){
-//     console.log(`${n} - ${i} =`, n - i)
+ }else if(operação === "-"){
+     console.log(`${n} - ${i} =`, n - i)
 
-// }else if(operação === "*"){
-//     console.log(`${n} * ${i} =`, i * n)
+ }else if(operação === "*"){
+     console.log(`${n} * ${i} =`, i * n)
 
-// }else if (operação ==="/"){
-//     if(n === 0){
-//         console.log("Digite outro número")
-//     }else{
+}else if (operação ==="/"){
+     if(n === 0){
+         console.log("Digite outro número")
+     }else{
         
-//     console.log(`${n} / ${i} = `, i / n)
-//     }
+     console.log(`${n} / ${i} = `, i / n)
+     }
 
-// }
-// }
-
-for (let i = 1; i <= 10 ;i++){
+ }
+}
+/*for (let i = 1; i <= 10 ;i++){
 switch(operação){
 case "+": 
      console.log(`${n} + ${i} = `, i + n)
@@ -47,4 +46,4 @@ case "/":
       }
       break;
 }
-}
+}*/
